@@ -69,12 +69,12 @@ h2{
     text-align: center;
 }
 
-.productos-container{
+/* .productos-container{
     display: flex;
     flex-wrap: wrap;
     margin: 8px;
     justify-content: center;
-}
+} */
 
 .productos-container h3{
     text-align: center;

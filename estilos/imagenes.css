@@ -21,7 +21,7 @@ img{
     margin: 10px;
     padding: 10px;
     background-color: beige;
-    box-shadow: 0 15px 20px;
+    /* box-shadow: 0 15px 20px; */
     border-radius: 10px;
     justify-content: center;
 }
@@ -38,6 +38,7 @@ img{
     margin: 0px;
     height: 70px;
     width: 70px;
+    padding: 0px;
     border-radius: 300px;
     border: 2px solid black;
     display: flex;
@@ -47,6 +48,10 @@ img{
 .position{
     display: flex;
     justify-content: center;
+}
+
+.position img{
+    box-shadow: 0 15px 20px;
 }
 
 .detalle{
@@ -85,28 +90,29 @@ nav{
     background-color: rgb(214, 164, 89);
 }
 
-/* nav{
-    background-color: rgb(214, 164, 89);
-    height: 30px;
-    display: flex;
+.logos{
+display: flex;
+justify-content: center;
+background-color: bisque;
 }
 
-nav ul{
-    list-style-type: none;
-    margin: 0%;
+.logos a{
+    width:48px;
+    border-radius: 30px;
     display: flex;
+    top:50px;
+   
 }
 
-nav a{
-    text-decoration: none;
-    display: block;
-    padding: 6px 15px;
-    color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif; 
-    font-style: italic;
-    position: absolute;
-    right: 40px;
-} */
+.logos img{
+    width:48px;
+    height: 48px;
+    padding: 0px;
+    border-radius: 30px;
+    position:flex;
+    top:50px;
+    border: 2px solid rgb(228, 228, 228);
+}
 
 footer{
     margin-top: 30px;

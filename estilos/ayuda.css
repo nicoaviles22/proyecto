@@ -111,15 +111,33 @@ p{
 }
 .logos img{
     width:48px;
+    height: 48px;
+    padding: 0px;
     border-radius: 30px;
     position:flex;
     top:50px;
+    border: 2px solid rgb(228, 228, 228);
 }
-
 
 footer{
     margin-top: 30px;
     text-align: center;
     font-weight: 600;
     font-size: 20px;
+}
+
+form{
+    padding: 15px;
+    font-weight: 200;
+}
+
+.inicio{
+    margin: 25px;
+    border: 2px solid grey;
+
+}
+
+.inicio button{
+    background-color: rgb(196, 174, 145);
+    border-color: black;
 }
